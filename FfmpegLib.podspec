@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
-  s.name         = "FfmpegLib"
+  s.name         = "LibFfmpeg"
   s.version      = "0.0.2"
   s.summary      = "ffmpeg code library"
   s.description  = "Ffmpeg code base, video processing base"
 
-  s.homepage     = "https://github.com/midoks/FfmpegLib"
+  s.homepage     = "https://github.com/midoks/LibFfmpeg"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "midoks" => "midoks@163.com" }
   s.requires_arc = false
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.7"
 
-  s.source       = { :git => "https://github.com/midoks/FfmpegLib", :tag => "0.0.2", :submodules => true }
+  s.source       = { :git => "https://github.com/midoks/LibFfmpeg", :tag => "0.0.2", :submodules => true }
 
   s.default_subspec = 'precompiled'
 
