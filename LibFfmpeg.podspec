@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'source/include/**/*.h'
     ss.header_mappings_dir = 'source/include'
     ss.vendored_libraries  = 'source/lib/*.a'
-    ss.libraries = 'avcodec', 'avdevice', 'avfilter', 'avformat', 'avutil', 'swresample', 'swscale', 'iconv', 'z', 'bz2'
+    ss.libraries = "c++", 'avcodec', 'avdevice', 'avfilter', 'avformat', 'avutil', 'swresample', 'swscale', 'iconv', 'z', 'bz2'
   end
 
 end
