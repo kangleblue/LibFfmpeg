@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FfmpegLib"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ffmpeg code library"
   s.description  = "Ffmpeg code base, video processing base"
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.7"
 
-  s.source       = { :git => "https://github.com/midoks/FfmpegLib", :tag => "0.0.1", :submodules => true }
+  s.source       = { :git => "https://github.com/midoks/FfmpegLib", :tag => "0.0.2", :submodules => true }
 
   s.default_subspec = 'precompiled'
 
