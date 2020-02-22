@@ -3,10 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "FfmpegLib"
   s.version      = "0.0.1"
   s.summary      = "ffmpeg code library"
-
-  s.description  = <<-DESC
-ffmpeg code library
-                   DESC
+  s.description  = "Ffmpeg code base, video processing base"
 
   s.homepage     = "https://github.com/midoks/FfmpegLib"
   s.license      = { :type => "MIT", :file => "LICENSE" }
