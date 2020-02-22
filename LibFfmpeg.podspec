@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
 
   s.platform     = :osx, '10.7'
   # s.ios.deployment_target = "8.0"
-  # s.osx.deployment_target = "10.7"
 
   s.source       = { :git => "https://github.com/midoks/LibFfmpeg", :tag => "0.0.2", :submodules => true }
   s.default_subspec = 'precompiled'
