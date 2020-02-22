@@ -1,2 +1,2 @@
 # FfmpegLib
-[pod] ffmpeg code base
+[pod] ffmpeg code library
